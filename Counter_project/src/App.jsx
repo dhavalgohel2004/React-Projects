@@ -27,8 +27,8 @@ function App() {
     <>
      <h1>hello dhaval</h1>
      <h2>Counter value : {Counter}</h2>
-     <button onClick={addValue}>Increase Value to {Counter + 1}</button> <br /><br />
-     <button onClick={removeValue}>Decrease value to {Counter - 1}</button>
+     <button onClick={addValue} disabled={Counter >= 20}>Increase Value to {Counter + 1}</button> <br /><br />
+     <button onClick={removeValue} disabled={Counter <= 0}>Decrease value to {Counter - 1}</button>
     </>
   )
 }

@@ -4,9 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
-button:disabled {
-  cursor: not-allowed;
-}
+
 .logo {
   height: 6em;
   padding: 1.5em;
