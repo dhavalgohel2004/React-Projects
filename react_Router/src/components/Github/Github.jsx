@@ -1,18 +1,8 @@
-import React, { useEffect, useState } from 'react'
 import { useLoaderData } from 'react-router-dom'
 
 function Github() {
     const data = useLoaderData() 
-
-    // const [data, setData] = useState([])
-
-    // useEffect(() => {
-    //     fetch('https://api.github.com/users/dhavalgohel2004')
-    //         .then(response => response.json())
-    //         .then(data => {
-    //             setData(data) })
-    // }, [])
-
+    
     return (
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
             <div className="w-full max-w-lg bg-white shadow-lg rounded-xl overflow-hidden">
