@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Form from './component/Form'
 import ExpenseList from './component/ExpenseList'
 
