@@ -9,5 +9,5 @@ export const ThemeContext = createContext({
 export const ThemeProvider = ThemeContext.Provider;
 
 export default function userTheme() {
-    return useContext(ThemeContext);
+    return useContext(ThemeContext); //custome hook
 }
