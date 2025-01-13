@@ -1,14 +1,13 @@
-import { use } from 'react'
-import { useState } from 'react'
+import AddTodo from './component/AddTodo'
+import Todos from './component/Todos'
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [hey, setHey] = useState('');
 
   return (
     <>
-      <h1>hello</h1>
-      
+      <h1>Todo with Redux-ToolKit</h1>
+      <AddTodo />
+      <Todos />
     </>
   )
 }
