@@ -11,7 +11,7 @@ function Todos() {
 
   const handleUpdate = (id) => {
     dispatch(updateTodo({ id, newText: editText }));
-    setEditId(null); // Close editing mode
+    setEditId(null); 
   };
 
   return (
@@ -45,7 +45,7 @@ function Todos() {
                 <button
                   onClick={() => {
                     setEditId(todo.id);
-                    setEditText(todo.text); // Set current text in input
+                    setEditText(todo.text); 
                   }}
                   className="text-white bg-blue-500 px-3 py-1 rounded hover:bg-blue-600"
                 >
